@@ -16,7 +16,7 @@ Example of watermark removal with LaMa inpainting
 
 ## Overview
 
-`WatermarkRemover-AI` is a cutting-edge application that leverages AI models for precise watermark detection and seamless removal. It uses Florence-2 from Microsoft for watermark identification and LaMA for inpainting to fill in the removed regions naturally. The software offers both a command-line interface (CLI) and a PyQt6-based graphical user interface (GUI), making it accessible to both casual and advanced users.
+`WatermarkRemover-AI` is a cutting-edge application that leverages AI models for precise watermark detection and seamless removal. It uses Florence-2 from Microsoft for watermark identification and LaMA for inpainting to fill in the removed regions naturally. The software offers both a command-line interface (CLI) and a PyQt6-based graphical user interface (GUI), making it accessible to both casual and advanced users.1
 
 ## Table of Contents
 
