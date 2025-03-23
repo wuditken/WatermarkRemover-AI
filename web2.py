@@ -28,8 +28,8 @@ model_manager = None
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
 # Base directory for image files
-#IMAGE_DIR = "/data/imgdata"
-IMAGE_DIR = "/Users/wudi/conpany/aitootls/WatermarkRemover-AI"
+IMAGE_DIR = "/data/imgdata"
+#IMAGE_DIR = "/Users/wudi/conpany/aitootls/WatermarkRemover-AI"
 
 class TaskType(str, Enum):
     OPEN_VOCAB_DETECTION = "<OPEN_VOCABULARY_DETECTION>"
