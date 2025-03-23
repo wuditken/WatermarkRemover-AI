@@ -11,4 +11,4 @@ RUN git pull
 RUN pip install Flask
 
 # 启动应用
-CMD ["python", "web2.py"]
+CMD ["conda", "run", "-n", "py312aiwatermark", "python", "web2.py"]
