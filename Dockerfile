@@ -7,8 +7,8 @@ WORKDIR /ai/WatermarkRemover-AI
 # 拉取最新代码
 RUN git pull
 
-# 安装 Flask
-RUN pip install Flask
+# 安装依赖
+RUN conda run -n py312aiwatermark pip install Flask
 
 # 启动应用
 CMD ["conda", "run", "-n", "py312aiwatermark", "python", "web2.py"]
